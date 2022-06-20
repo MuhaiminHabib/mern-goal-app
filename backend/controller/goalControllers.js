@@ -1,3 +1,5 @@
+const goal = require('../models/goalModel');
+
 const getGoals = (req, res) => {
     res.status(200).json({message : "getting all goals"});
 }
